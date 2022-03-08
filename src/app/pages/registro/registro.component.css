@@ -1,0 +1,46 @@
+.centrar {
+    text-align: center;
+}
+
+#logoeeh {
+    width: 360px;
+}
+
+#logoaepi {
+    width: 208px;
+}
+
+h1 {
+    font-family: montse-bold;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #2B5F99;
+    text-align: center;
+}
+
+.btn {
+    width: 217px;
+    height: 37px;
+    text-align: center;
+    font-family: montse-bold;
+    font-size: 15px;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#continuar {
+    background-color: #2B5F99;
+    margin-top: 25px;
+}
+
+#registrar {
+    background-color: #a3a0a0e1;
+}

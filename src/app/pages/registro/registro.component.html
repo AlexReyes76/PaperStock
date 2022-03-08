@@ -6,15 +6,16 @@
         <img id="logoaepi" src="../../../assets/img/LOGO aepi.PNG" alt="">
     </div>
     <div class="centrar">
-        <h1>Iniciar sesión</h1>
+        <h1>Registrarse</h1>
         <input [formControl]="idInspector" type="text" placeholder="Ingrese su ID">
-        <h1>Password</h1>
+        <h1>Ingrese nueva Contraseña</h1>
         <input [formControl]="password" type="password" placeholder="*******">
+        <h1>Confirmar Contraseña</h1>
+        <input [formControl]="passwordConfirm" type="password" placeholder="*******">
     </div>
     <div class="centrar">
-        <button id="continuar" class="btn" type="submit">Continuar</button><br>
-        <button id="registrar" class="btn" type="submit" routerLink="/Registro">Registrarse</button><br>
+        <button id="continuar" class="btn" type="submit" (click)="saveUser()">Iniciar sesion</button><br>
+        <button id="registrar" class="btn" type="submit" routerLink="/login">Cancelar</button><br>
         <a href="">¿Necesitas ayuda?</a>
     </div>
 </main>
-<router-outlet></router-outlet>
