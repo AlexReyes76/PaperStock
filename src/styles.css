@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: montse-bold;
+    src: url(assets/fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: montse-ligth;
+    src: url(assets/fonts/Montserrat/Montserrat-Light.ttf);
+}
